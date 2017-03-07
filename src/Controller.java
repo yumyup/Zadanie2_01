@@ -10,7 +10,12 @@ public class Controller {
     double price;
 
 Controller (String mf, String sym, String pow, String cr, String ds, int pr) {
-
+manufacturer = mf;
+symbol = sym;
+power = pow;
+colour = cr;
+destiny = ds;
+price = pr;
 
 }
 }
